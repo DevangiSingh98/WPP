@@ -1,0 +1,121 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: white;
+  padding: 20px;
+  border-bottom: 4px solid #004080;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #004080;
+}
+
+h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #666;
+}
+
+nav {
+  background-color: #004080;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  margin: 40px;
+}
+
+.quick-links {
+  flex: 1;
+}
+
+h3 {
+  color: #004080;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.blue-box {
+  background-color: #4da6ff;
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blue-box:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  flex: 2;
+  margin-left: 40px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
